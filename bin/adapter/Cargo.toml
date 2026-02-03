@@ -12,7 +12,7 @@ repository.workspace = true
 alloy-rpc-types-engine = { workspace = true, features = ["serde"] }
 
 tokio = { workspace = true, features = ["full"] }
-bytes = "1.2"
+bytes = "1.11"
 hyper = { version = "1", features = ["full"] }
 hyper-rustls = { version = "0.26", features = ["webpki-roots"] }
 http-body-util = "0.1"
